@@ -22,7 +22,7 @@ const RightNav = () => {
                         <FaTwitter></FaTwitter> Twitter
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <FaInstagram></FaInstagram>Instagram
+                        <FaInstagram></FaInstagram> Instagram
                     </ListGroup.Item>
                 </ListGroup>
             </div>

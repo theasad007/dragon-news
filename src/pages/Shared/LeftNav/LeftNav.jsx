@@ -13,7 +13,7 @@ const LeftNav = () => {
     console.log(categories)
     return (
         <div>
-            <h4>All Category</h4>
+            <h4 className='fw-bold fs-5'>All Category</h4>
 
             <div className="">
                 {
