@@ -8,7 +8,7 @@ const Category = () => {
     console.log(categoryNews)
     return (
         <div>
-            Category {categoryNews.length}
+            { id ? <h2 className='fw-bold fs-5'>This Category has {categoryNews.length} News</h2> : <h2 className='fw-bold fs-5'>Dragon News Home</h2>}
             <div className="news-wrap">
                 {
                     categoryNews.map(news =>

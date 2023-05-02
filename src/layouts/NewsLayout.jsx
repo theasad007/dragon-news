@@ -12,6 +12,7 @@ const NewsLayout = () => {
             <Container>
                 <Row>
                     <Col lg={9}>
+                        <h4 className='fw-bold fs-5 mb-3'>Dragon News</h4>
                         <Outlet></Outlet>
                     </Col>
                     <Col lg={3}>

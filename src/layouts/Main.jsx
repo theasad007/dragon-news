@@ -5,11 +5,15 @@ import { Col, Container, Row } from 'react-bootstrap';
 import LeftNav from '../pages/Shared/LeftNav/LeftNav';
 import RightNav from '../pages/Shared/RightNav/RightNav';
 import { Outlet } from 'react-router-dom';
+import MenuBar from '../pages/Shared/MenuBar/MenuBar';
+import LatestNews from '../pages/Shared/LatestNews/LatestNews';
 
 const Main = () => {
     return (
         <div>
             <Header></Header>
+            <LatestNews></LatestNews>
+            <MenuBar></MenuBar>
             <Container>
                 <Row>
                     <Col lg={3}>
